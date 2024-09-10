@@ -1,10 +1,14 @@
+import Counter from './components/Counter';
 
 function App() {
+
+  
+
   return (
     <div className="App">
-       <div className='Container'>
-            <h1>Welcome to home page</h1>
-       </div>
+          <h1>Hello Abhijeet!!</h1>
+          <Counter/>
+          
     </div>
   );
 }
