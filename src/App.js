@@ -1,9 +1,9 @@
-import BgChange from "./components/Bg_Change";
+import PassWord from "./components/PasswordGen";
 
 function App() {
   
   return (
-    <BgChange />
+    <PassWord />
   );
 }
 
