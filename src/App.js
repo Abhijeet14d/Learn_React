@@ -1,10 +1,10 @@
-import PassWord from "./components/PasswordGen";
+import UseEffect from './components/UseEffect';
 
-function App() {
-  
-  return (
-    <PassWord />
-  );
+export default function App(){
+   return(
+      <div className="App">
+         <h3 className="text-white">this is main page</h3>
+         <UseEffect />
+      </div>
+   );
 }
-
-export default App;
